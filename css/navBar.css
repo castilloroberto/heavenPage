@@ -27,7 +27,6 @@
 .navbar .nav-links{
     display: flex;
     justify-content: space-evenly;
-
     flex-grow: 1;
 }
 .navbar .nav-links a{
@@ -45,7 +44,24 @@ main{
 }
 
 @media only screen and (max-width: 600px) {
+    .navbar{
+        height: 55px;
+        top: auto;
+        bottom: 0;
+    }
+    .nav-brand{
+        display: none;
+    }
     .nav-links a span{
         display: none;
+    } 
+    .nav-links a i{
+        font-size: 20px;
+    }
+    .nav-links a i:last-child{
+        transform: rotate(180deg);
+    }
+    main{
+        margin-top: auto;
     } 
 }
