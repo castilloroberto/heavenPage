@@ -34,8 +34,18 @@
     text-decoration: none;
     color: white;
 }
+.navbar .nav-links .link-selected span,.navbar .nav-links .link-selected i{
+    color: #00a8ff;
+}
+
 
 main{
     padding: 20px;
     margin-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-links a span{
+        display: none;
+    } 
 }

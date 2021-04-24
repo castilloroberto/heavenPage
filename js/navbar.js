@@ -1,4 +1,3 @@
-console.log('navbar loaded!!');
 
 const title = document.title
 
@@ -53,6 +52,17 @@ document.body.innerHTML = navbar
 document.body.innerHTML += pageContent
 
 
+const aLinks = document.querySelectorAll('a.nav-a span')
+console.log(aLinks);
+aLinks.forEach(e => {
+
+    if(title == e.textContent){
+
+        e.parentElement.classList.add('link-selected')
+        console.log(e.parentElement);
+    }
+    
+});
 // const aLinks = document.querySelectorAll('a.nav-a')
 
 
