@@ -1,0 +1,24 @@
+#img{
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px gray;
+}
+.imgcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#btnrefresh{
+    border: none;
+    margin: 20px;
+    background: none;
+}
+#btnrefresh i{
+    font-size: 20px;
+    transition: transform 0.75s;
+}
+#btnrefresh:hover i{
+    transform: rotate(360deg);
+    color: dodgerblue;
+}

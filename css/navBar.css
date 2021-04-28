@@ -32,7 +32,9 @@
 .navbar .nav-links a{
     text-decoration: none;
     color: white;
+
 }
+
 .navbar .nav-links .link-selected span,.navbar .nav-links .link-selected i{
     color: #00a8ff;
 }
@@ -67,4 +69,11 @@ main{
     main{
         margin-top: auto;
     } 
+}
+h2{
+    width: 100px;
+}
+
+h2:hover{
+    border-bottom: 2px solid orange;
 }
